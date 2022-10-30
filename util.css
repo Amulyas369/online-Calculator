@@ -1,0 +1,43 @@
+.flex{
+    display: flex;
+}
+.item-center{
+    align-items: center;
+}
+.j-center{
+    justify-content: center;
+}
+.column{
+    flex-direction:column;
+}
+.wd{
+    width: 139px;
+}
+.hi{
+    height: 139px;
+}
+.m-right{
+    margin-right: 12px;
+}
+.m-top{
+    margin-top: 0;
+}
+@media only screen and (max-width: 330px){
+ 
+    .hi{
+        height: 114px;
+    }
+    .wd{
+        width: 114px;
+    }
+    
+@media only screen and (max-width: 240px){
+
+    .hi{
+        height: 70px;
+    }
+    .wd{
+        width: 70px;
+    }
+    
+}
